@@ -5,6 +5,7 @@ body {
   margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  text-align:right,
 }
 
 .header {
@@ -22,19 +23,54 @@ body {
 h1 {
   font-size: 3rem;
   margin: 0;
+  text-align: center;
+
 }
+
+p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+}
+
+
 
 h4 {
   font-size: 1.5rem;
   font-weight: 300;
+  text-align: center;
 }
+
 
 img {
   display: block;
+  img {
+    width: 100%;
+    height: auto;
+}
+picture {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (min-width: 960px) {
-  .header {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
+
+
+
+@media (min-width: 960px) {
+  .header {margin: 0;
+    padding: 0;}
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+ img {
+  width: 100%;
+  height: auto;
+ }
+
+
+ 
